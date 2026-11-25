@@ -12,13 +12,12 @@ uselessness is the joke. The customer is never the butt of it.
 
 ## The line
 
-> Your router has been unplugged since Tuesday, sir — I can see that from here, which is why I'll ask you to unplug it again, slowly, like it means something.
+> Your voice is shaking, Mr. Adi — let's unplug the printer together, count to ten, and I'll pretend the blinking red light is applause.
 
-156 characters. The router has been dead since Tuesday and the
-agent can see that from his desk — so his fix is to ask the
-customer to unplug it again, slowly, like it means something. The
-classic turn-it-off-and-on-again, twisted into a ritual performed
-with feeling.
+134 characters. Mr. Adi's voice is shaking, so the agent turns the
+fix into something they do together — unplug the printer, count to
+ten — and the twist is the applause: the blinking red error light
+gets a round of it.
 
 ## Run it
 

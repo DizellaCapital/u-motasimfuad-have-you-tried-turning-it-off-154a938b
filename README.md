@@ -12,12 +12,12 @@ uselessness is the joke. The customer is never the butt of it.
 
 ## The line
 
-> The update finished at 2 a.m. and ate your files, ma'am — good news, I found the button that does it again, and I'm pressing it with confidence.
+> Please hold, Mrs. Hartono — your password expired in 2019, the system has forgiven you, and I have already forgotten the new one for you.
 
-144 characters. The update finished at 2 a.m. and ate the files —
-good news, the agent found the button that does it again, and he
-is pressing it with confidence. The twist is the confidence: he
-is about to do it twice.
+137 characters. Mrs. Hartono's password expired in 2019 and the
+system has forgiven her — and the agent has already forgotten the
+new one for her. The twist is the agent doing the forgetting
+himself, helpfully, in advance.
 
 ## Run it
 

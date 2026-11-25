@@ -1,11 +1,11 @@
-"""Have You Tried Turning It Off? — entry program, variant 4.
+"""Have You Tried Turning It Off? — entry program, variant 5.
 
 One funny line a hopeless tech support agent says to a desperate
-customer. The update finished at 2 a.m. and ate the customer's
-files — good news, the agent found the button that does it again,
-and he is pressing it with confidence. The scene is specific —
-a 2 a.m. update, files eaten, a button that does it again — and
-the twist is the confidence: he is about to do it twice.
+customer. Mrs. Hartono's password expired in 2019, the system has
+forgiven her — and the agent has already forgotten the new one for
+her. The scene is specific — a password dead since 2019, a system
+that forgives, a new password already forgotten — and the twist is
+the agent doing the forgetting for her, helpfully, in advance.
 
 The program enforces the bounty limits — a single line of 1 to 199
 characters — and writes the line to entry.txt, verifying the write
@@ -15,12 +15,12 @@ by reading it back.
 import os
 import sys
 
-LINE = "The update finished at 2 a.m. and ate your files, ma'am — good news, I found the button that does it again, and I'm pressing it with confidence."
+LINE = "Please hold, Mrs. Hartono — your password expired in 2019, the system has forgiven you, and I have already forgotten the new one for you."
 
 MAX_CHARS = 199
 
 
-def faults(line):
+def issues(line):
     """List every way the line breaks the bounty limits, if any."""
     bad = []
     if not line or line.strip() != line:
@@ -33,7 +33,7 @@ def faults(line):
 
 
 def main():
-    bad = faults(LINE)
+    bad = issues(LINE)
     if bad:
         print("invalid entry: " + "; ".join(bad), file=sys.stderr)
         return 1

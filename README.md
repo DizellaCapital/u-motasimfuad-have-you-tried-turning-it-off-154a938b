@@ -12,12 +12,13 @@ uselessness is the joke. The customer is never the butt of it.
 
 ## The line
 
-> At 3:12 a.m., Mrs. Hartono whispered that her thesis was gone, so I smiled and asked her to hold while I restarted my own computer first.
+> Your router has been unplugged since Tuesday, sir — I can see that from here, which is why I'll ask you to unplug it again, slowly, like it means something.
 
-137 characters. At 3:12 a.m. a thesis is gone, and the agent's
-first move is to restart his own computer — the classic
-turn-it-off-and-on-again, twisted onto the wrong machine, delivered
-with a smile while the customer waits on hold.
+156 characters. The router has been dead since Tuesday and the
+agent can see that from his desk — so his fix is to ask the
+customer to unplug it again, slowly, like it means something. The
+classic turn-it-off-and-on-again, twisted into a ritual performed
+with feeling.
 
 ## Run it
 

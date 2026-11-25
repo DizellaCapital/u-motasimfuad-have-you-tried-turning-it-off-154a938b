@@ -1,10 +1,12 @@
-"""Have You Tried Turning It Off? — entry program, variant 1.
+"""Have You Tried Turning It Off? — entry program, variant 2.
 
 One funny line a hopeless tech support agent says to a desperate
-customer. The agent restarts his own computer first: cheerful,
-useless, and the customer is never the butt of it. The scene is
-specific — 3:12 a.m., a named customer, a thesis on the line — and
-the twist lands in the last clause.
+customer. The router has been unplugged since Tuesday and the agent
+can see that from his desk — so he asks the customer to unplug it
+again, slowly, like it means something. The scene is specific —
+a router dead since Tuesday, an agent who can already see it —
+and the twist is the ritual: do the useless thing again, but
+with feeling.
 
 The program enforces the bounty limits — a single line of 1 to 199
 characters — and writes the line to entry.txt, verifying the write
@@ -14,25 +16,25 @@ by reading it back.
 import os
 import sys
 
-LINE = "At 3:12 a.m., Mrs. Hartono whispered that her thesis was gone, so I smiled and asked her to hold while I restarted my own computer first."
+LINE = "Your router has been unplugged since Tuesday, sir — I can see that from here, which is why I'll ask you to unplug it again, slowly, like it means something."
 
 MAX_CHARS = 199
 
 
-def problems(line):
-    """Collect every way the line breaks the bounty limits, if any."""
-    found = []
+def violations(line):
+    """List every way the line breaks the bounty limits, if any."""
+    bad = []
     if not line or line.strip() != line:
-        found.append("empty or padded")
+        bad.append("empty or padded")
     if len(line) > MAX_CHARS:
-        found.append("over 199 characters")
+        bad.append("over 199 characters")
     if "\n" in line or "\r" in line:
-        found.append("more than one line")
-    return found
+        bad.append("more than one line")
+    return bad
 
 
 def main():
-    bad = problems(LINE)
+    bad = violations(LINE)
     if bad:
         print("invalid entry: " + "; ".join(bad), file=sys.stderr)
         return 1

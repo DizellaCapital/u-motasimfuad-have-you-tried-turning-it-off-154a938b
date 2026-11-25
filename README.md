@@ -12,12 +12,12 @@ uselessness is the joke. The customer is never the butt of it.
 
 ## The line
 
-> Your voice is shaking, Mr. Adi — let's unplug the printer together, count to ten, and I'll pretend the blinking red light is applause.
+> The update finished at 2 a.m. and ate your files, ma'am — good news, I found the button that does it again, and I'm pressing it with confidence.
 
-134 characters. Mr. Adi's voice is shaking, so the agent turns the
-fix into something they do together — unplug the printer, count to
-ten — and the twist is the applause: the blinking red error light
-gets a round of it.
+144 characters. The update finished at 2 a.m. and ate the files —
+good news, the agent found the button that does it again, and he
+is pressing it with confidence. The twist is the confidence: he
+is about to do it twice.
 
 ## Run it
 

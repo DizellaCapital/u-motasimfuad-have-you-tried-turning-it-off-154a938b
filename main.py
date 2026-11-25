@@ -1,12 +1,11 @@
-"""Have You Tried Turning It Off? — entry program, variant 3.
+"""Have You Tried Turning It Off? — entry program, variant 4.
 
 One funny line a hopeless tech support agent says to a desperate
-customer. Mr. Adi's voice is shaking, so the agent turns the fix
-into something they do together: unplug the printer, count to ten,
-and pretend the blinking red light is applause. The scene is
-specific — a shaking voice, a named customer, a printer counting
-down with them — and the twist is the applause: the error light
-gets a round of it.
+customer. The update finished at 2 a.m. and ate the customer's
+files — good news, the agent found the button that does it again,
+and he is pressing it with confidence. The scene is specific —
+a 2 a.m. update, files eaten, a button that does it again — and
+the twist is the confidence: he is about to do it twice.
 
 The program enforces the bounty limits — a single line of 1 to 199
 characters — and writes the line to entry.txt, verifying the write
@@ -16,12 +15,12 @@ by reading it back.
 import os
 import sys
 
-LINE = "Your voice is shaking, Mr. Adi — let's unplug the printer together, count to ten, and I'll pretend the blinking red light is applause."
+LINE = "The update finished at 2 a.m. and ate your files, ma'am — good news, I found the button that does it again, and I'm pressing it with confidence."
 
 MAX_CHARS = 199
 
 
-def defects(line):
+def faults(line):
     """List every way the line breaks the bounty limits, if any."""
     bad = []
     if not line or line.strip() != line:
@@ -34,7 +33,7 @@ def defects(line):
 
 
 def main():
-    bad = defects(LINE)
+    bad = faults(LINE)
     if bad:
         print("invalid entry: " + "; ".join(bad), file=sys.stderr)
         return 1
